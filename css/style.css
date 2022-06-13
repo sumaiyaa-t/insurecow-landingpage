@@ -137,7 +137,7 @@ section.color {
 .we-are-block i,
 #features i,
 .contact-details {
-  background: #202020;
+  background: #1d5c2c;
 }
 
 .navbar-default {
@@ -740,7 +740,6 @@ nav .navbar-nav li a:hover {
 .products-image {
   width: 600px;
   height: 500px;
-
 }
 
 #features .title {
@@ -863,7 +862,7 @@ h5,
 h6 {
   padding: 0;
   margin: 0 0 15px 0;
-  color: #333333;
+  color: #1d5c2c;
   font-weight: 700;
 }
 
@@ -967,7 +966,7 @@ img {
 }
 
 .section-title h1 {
-  color: #353535;
+  color: #1d5c2c;
   font-size: 50px;
   letter-spacing: 5px;
   margin-bottom: 5px;
@@ -1007,7 +1006,7 @@ img {
 .team-10 .team-content {
   position: relative;
   width: 90%;
-  height: 150px;
+  height: 190px;
   padding: 20px;
   margin: -60px auto 0 auto;
   background: #ffffff;
@@ -1078,23 +1077,23 @@ img {
 }
 
 .team-10 .team-social a.social-tw {
-  background: #00acee;
+  background: #1b5c2c;
 }
 
 .team-10 .team-social a.social-fb {
-  background: #3b5998;
+  background: #288541;
 }
 
 .team-10 .team-social a.social-li {
-  background: #0e76a8;
+  background: #32a551;
 }
 
 .team-10 .team-social a.social-in {
-  background: #3f729b;
+  background: #2bc454;
 }
 
 .team-10 .team-social a.social-yt {
-  background: #c4302b;
+  background: #154722;
 }
 
 .team-10 .team-social a:last-child {
@@ -1102,7 +1101,7 @@ img {
 }
 
 .team-10 .team-social a:hover {
-  background: #222222;
+  background: #0e3518;
 }
 
 .join-our-team {
@@ -1208,6 +1207,9 @@ img {
 #team .thumbnail .caption li > a.fa-youtube:hover {
   color: #c2191e;
 }
+.member-speech {
+  color: #1b5c2c;
+}
 /* =================================================================== 
 						SKILLS SECTION
 ======================================================================*/
@@ -1299,7 +1301,7 @@ img {
   position: relative;
 }
 .service-block i.fa {
-  color: #000;
+  color: #238139;
   display: block;
   font-size: 75px;
   left: 0;
@@ -1398,8 +1400,10 @@ img {
 						WORKING SECTION
 ======================================================================*/
 #working {
-  background: url(../images/bg/working.png) #202020 repeat fixed;
+  /* background: url(../images/bg/working.png) #202020 repeat fixed; */
   padding-bottom: 80px;
+  background: rgb(17, 134, 56);
+  color: #1b5c2c;
 }
 #working .title {
   margin-bottom: 70px;
@@ -1577,11 +1581,12 @@ img {
 ======================================================================*/
 #testimonials {
   text-align: center;
-  background: url(../images/bg/testimonial.jpg) fixed;
+  /* background: url(../images/bg/testimonial.jpg) fixed; */
   background-size: cover;
   z-index: 0;
   position: relative;
   padding-bottom: 80px;
+  background-color: #1d5c2c;
 }
 #testimonials p {
   font-weight: 500;
@@ -1796,7 +1801,7 @@ img {
 #contact .btn {
   margin: 25px 0 60px;
   float: right;
-  background: transparent;
+
   font-weight: 700;
   font-size: 18px;
   padding: 10px 80px;
@@ -1822,7 +1827,7 @@ img {
 /*==================Contact details====================*/
 .contact-details {
   padding: 50px 20px;
-  background: #171717;
+  background: #1b5c2c;
   text-align: center;
   position: relative;
 }
